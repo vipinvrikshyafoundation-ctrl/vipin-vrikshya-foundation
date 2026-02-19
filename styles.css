@@ -56,8 +56,8 @@ body {
 }
 
 .nav-logo {
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: auto;
     object-fit: contain;
     transition: transform 0.3s ease;
 }
@@ -627,13 +627,10 @@ section {
 }
 
 .footer-logo {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: auto;
     object-fit: contain;
     margin-bottom: 20px;
-    background: var(--white);
-    border-radius: 50%;
-    padding: 10px;
     transition: transform 0.3s ease;
 }
 
