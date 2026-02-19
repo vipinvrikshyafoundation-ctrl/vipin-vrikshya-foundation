@@ -1262,6 +1262,12 @@ section {
     }
 }
 
+/* Single photo in gallery */
+.gallery-item.single-photo {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
 /* Loading Animation for Images */
 .gallery-item img {
     animation: fadeInImage 0.5s ease-in;
